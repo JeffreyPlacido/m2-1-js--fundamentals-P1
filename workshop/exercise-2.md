@@ -52,7 +52,12 @@ Put your solution between the ```:
 _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
-// Your solution here!
+1. let sentence = 'Hello world!';
+2. if (sentence.includes('Hello')) {
+3. console.log('Sentence DOES contain the word "Hello"');
+4. } else {
+5. console.log('Sentence DOES NOT contain the word "Hello"');
+6. }
 
 ```
 
@@ -65,7 +70,13 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 5. const thirdIndex = = 0;
 
 ```
-// Your solution here!
+1. const array = [[1, [2, 3]]];
+2. const firstIndex = 0;
+3. const firstIndex = 0;
+4. const thirdIndex = = 0;
+5. console.log(array[firstIndex][secondindex][thirdIndex])
+
+
 ```
 
 ## Question 3: Log all numbers from 10 to 5
@@ -78,7 +89,13 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 6. }
 
 ```
-// Your solution here!
+1. let currentNum = 10;
+2. let min = 5;
+3. while (currentNum > min) {
+3.   console.log(currentNum);
+5.   currentNum = currentNum - 1;
+6. }
+
 ```
 
 ## Question 4: Reverse the string to check for hidden messages
@@ -92,7 +109,15 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 7. const reversedString = reversedArray.join('');
 
 ```
-// Your solution here!
+
+1. const encodedMessage = 'gnidliub gruobuaF eht rednu deirub si erusaert ehT';
+2. const letterArray = encodedMessage.split('');
+3. const reversedArray = letterArray.reverse();
+4. const reversedString = reversedArray.join('');
+5. if (reversedString.includes('treasure')) {
+6.   console.log('Your message:', reversedString)
+7. }
+
 ```
 
 ## Question 5: Add all the numbers from 10 to 0
@@ -106,7 +131,15 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 7. }
 
 ```
-// Your solution here!
+1. let total = 0;
+2. 6. let count = 10;
+3. while (count > 0) {
+4. total = total + count;
+5. count = count - 1;
+6. }
+7. console.log('The total is:', total)
+
+
 ```
 
 ## Question 6: Check if the array includes a specific number
@@ -122,5 +155,13 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 9. }
 
 ```
-// Your solution here!
+1. let array = [1, 3, 7, 4, 5, 2, 1];
+2. let numberToSearchFor = 5;
+3. let includesNumber;
+4. for (let i = 0; i < array.length; i++) {
+5.   let item = array[i];
+6.   if (item === numberToSearchFor) {
+7.     console.log('Array includes the number!')
+8. }
+9. }
 ```
