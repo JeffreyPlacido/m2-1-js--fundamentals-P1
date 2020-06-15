@@ -24,3 +24,13 @@ for (let hour = 0; hour <= 23; hour++) {
 
     console.log(`It's ${hour}h. Time to ${activity}`);
 }
+
+// other way
+
+for(let x=0; x<24;x++)
+    if(x<5 ||x > 21)
+    {console.log(`It's ${x}h. Time to Sleep!`)}
+        else if (x===5 || x ===13 || x===18)
+        {console.log(`It's ${x}h. Time to Eat!`)}
+            else
+            {console.log(`It's ${x}h.Time to Train!`)}
